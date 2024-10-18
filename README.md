@@ -1,7 +1,9 @@
 
+# Image Magic: Effortless Image Upload and Compression
+
 This project is a web application that allows users to upload images and compress them effortlessly. It is built using Python (Flask) for the backend, JavaScript for interactivity, and HTML/CSS for the frontend design. The app compresses images using the Python Imaging Library (PIL) and displays both the original and compressed images, along with their file sizes.
 
-**Features**
+### Features
 
 - **Upload an image:** Users can select an image file from their device and upload it.
 - **Compress the image:** The uploaded image is compressed using the `Pillow` library with optimized quality.
@@ -33,21 +35,21 @@ Follow these instructions to set up and run this project on your local machine.
 ### Installation
 
 1. **Clone the repository**:
-   
+   ```bash
    git clone https://github.com/SakethGoljana/Image-Magic-Effortless-Upload-and-Compression.git
    cd Image-Magic-Effortless-Upload-and-Compression
-  
+   ```
 
 2. **Set up a virtual environment (recommended)**:
-  
+   ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
-  
+   ```
 
 3. **Install dependencies**:
-  
+   ```bash
    pip install -r requirements.txt
-  
+   ```
 
 4. **Create the necessary directories**:
    The application saves uploads and compressed files in an `uploads/` folder, which will be automatically created during the first run of the app.
@@ -55,14 +57,14 @@ Follow these instructions to set up and run this project on your local machine.
 ### Usage
 
 1. **Run the application locally**:
-
+   ```bash
    python app.py
-   
+   ```
 
 2. **Open your browser** and visit:
-  
+   ```
    http://127.0.0.1:5000/
-
+   ```
 
 3. **Upload an image**: Use the upload form to select an image, and it will be compressed upon submission.
 
@@ -74,9 +76,9 @@ The application is deployed using **Render**, a platform for easily hosting web 
 
 1. **Fork and Clone the Repository**: 
    If you haven't already forked the repository, fork it, and then clone the forked version:
-   
+   ```bash
    git clone https://github.com/your-username/Image-Magic-Effortless-Upload-and-Compression.git
-  
+   ```
 
 2. **Create a `render.yaml` file** (Optional but recommended):
    If not already present, create a `render.yaml` file to define the services. Here’s an example configuration:
@@ -106,7 +108,7 @@ If your app requires any environment variables (like `SECRET_KEY` or database UR
 
 ## Folder Structure
 
-
+```bash
 ├── app.py                # Main Flask application
 ├── templates
 │   └── index.html        # Frontend HTML for the app
@@ -117,25 +119,24 @@ If your app requires any environment variables (like `SECRET_KEY` or database UR
 ├── requirements.txt      # Project dependencies
 ├── render.yaml           # Render deployment configuration (optional)
 └── README.md             # Project documentation (this file)
-
+```
 
 ## Contributing
 
 1. Fork the project repository.
 2. Create a new feature branch:
- 
+   ```bash
    git checkout -b feature/amazing-feature
-  
+   ```
 3. Commit your changes:
-   
+   ```bash
    git commit -m 'Add amazing feature'
- 
+   ```
 4. Push the branch to GitHub:
-  
+   ```bash
    git push origin feature/amazing-feature
-   
+   ```
 5. Submit a Pull Request.
-
 
 
 **Image Magic** - Effortless upload and compression made simple!
